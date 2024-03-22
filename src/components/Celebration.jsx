@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import Confetti from "react-confetti";
 
 export default function Celebration({ stats }) {
-  let right = stats.right;
-  let wrong = stats.wrong;
+  const right = stats.right;
+  const wrong = stats.wrong;
 
   const windowWidth = useRef(window.innerWidth);
   const windowHeight = useRef(window.innerHeight);
